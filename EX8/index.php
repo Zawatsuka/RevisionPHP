@@ -1,6 +1,7 @@
 <?php 
     function puchArray($tab , $string){
-        array_push($tab , $string);
+       array_push($tab , $string);
+       return($tab);
     }
     $tableau = array(
         "Marc",
@@ -8,7 +9,8 @@
         "Maguy",
         "Jonathan",
         "Jennifer");
-    puchArray($tableau ,"Prune");
+        
+    puchArray($tableau ,"fabrice");
     foreach($tableau as $value){
         echo $value . "</br>" ;
     }
